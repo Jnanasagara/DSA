@@ -12,6 +12,8 @@ public class newLinkedList {
 
         linkedList.add(4, "E");
         linkedList.remove(3);
+        String n = linkedList.peekFirst();
+        System.out.println(n);
 
         System.out.println(linkedList);
     }
